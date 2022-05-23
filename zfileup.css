@@ -1,0 +1,65 @@
+/* Visit https://github.com/WillRnz/zfileuploader for more details. */
+
+.uploader {
+    width: 320px;
+    height: 100px;
+    border: dashed rgb(24, 22, 22) 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploader:hover{
+  border: dashed rgb(110, 110, 110) 3px;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.uploader2 {
+  width: 320px;
+  height: 100px;
+  border: dashed rgb(24, 22, 22) 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragover {
+  border: dashed rgb(110, 110, 110) 3px !important;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.arq {
+  width: 50px;
+  height: 50px;
+  border: dashed rgb(91, 86, 86) 1px;
+  border-radius: 5px;
+  /*background-color: rgba(0, 0, 0, 0.063);*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.126),white, rgba(0, 0, 0, 0.126));
+  font-size: 8px;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:4px;
+  margin-right:2px;
+  overflow: hidden;
+}
+
+.arq:hover {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+
+.arq .header {
+  top: 0;
+  position: absolute;
+}
+
+.arq .bottom {
+  bottom: 0;
+  position: absolute;
+  color:brown;
+}
+
+#arraste {
+  z-index:999px;
+}
